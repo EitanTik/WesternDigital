@@ -4,7 +4,7 @@ import time
 
 def a_decorator_passing_arbitrary_arguments(function_to_decorate):
     def a_wrapper_accepting_arbitrary_arguments(*args):
-        RateGuard.RateGuard(3,5,str(args))
+        RateGuard.RateGuard(60,60,str(args))
         function_to_decorate(*args)
 
     return a_wrapper_accepting_arbitrary_arguments
@@ -38,7 +38,7 @@ if __name__ == '__main__':
         time.sleep(3)
         set_it_up()
 
-    for i in range(10):
+    for i in range(61):
         get_users('12345a','google')
 
 
