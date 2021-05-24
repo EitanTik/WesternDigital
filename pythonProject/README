@@ -1,5 +1,5 @@
 
 Hi
 Through the main_file you may run the function
-there are several exmples of functions with different arguments that are passed via decorator and then into the RateGuard
+there are several examples of functions with different arguments that are passed via decorator and then into the RateGuard
 The RateGuard checks the times and rates of the input and determines if it should run smoothly or raise an exception.
