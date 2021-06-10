@@ -1,0 +1,12 @@
+#README
+-------
+Hi Vadim,
+
+## for db creation (sqlite) if needed:
+>>> python
+>>> from pythonProjectWesternDigital.__init__ import db, create_app
+>>> db.create_all(app=create_app())
+
+## for flask initiation
+ set (export, in linux) FLASK_APP=pythonProjectWesternDigital
+ flask run
